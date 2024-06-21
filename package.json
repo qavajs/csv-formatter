@@ -1,0 +1,31 @@
+{
+  "name": "@qavajs/csv-formatter",
+  "version": "0.1.0",
+  "description": "csv formatter for cucumber framework",
+  "scripts": {
+    "test:e2e": "qavajs run --config test-e2e/config.js"
+  },
+  "main": "src/formatter.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qavajs/csv-formatter.git"
+  },
+  "keywords": [
+    "qavajs",
+    "cucumber",
+    "formatter"
+  ],
+  "authors": [
+    "Alexander Galichenko"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qavajs/csv-formatter/issues"
+  },
+  "homepage": "https://github.com/qavajs/csv-formatter#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@qavajs/cli": "^0.38.0",
+    "@qavajs/memory": "^1.7.0"
+  }
+}
